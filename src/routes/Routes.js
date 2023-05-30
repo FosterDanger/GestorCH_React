@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Routes, Route, Navigate } from "react-router-dom";
+import {BrowserRouter ,Routes, Route, Navigate } from "react-router-dom";
 import { HashRouter } from 'react-router-dom';
 import Login from "../pages/Login";
 import Menu from "../pages/Menu";
@@ -23,26 +23,26 @@ function Router() {
   }, []);
 
   return (
-    <HashRouter>
-      {isLoggedIn ? <Menu /> : <Login setMenuVisible={setLoggedIn} />}
-      <Routes>
-        {isLoggedIn ? (
-          <>
-          <Route path="/" element={<Navigate to="/inicio" />} />
-            <Route path="/inicio" element={<Inicio />} />
-            <Route path="/editUser" element={<EditUser />} />
-            <Route
-              path="/editEquipoElectronico"
-              element={<EditEquipoElectronico />}
-            />
-            <Route path="/editEntregas" element={<EditEntregas />} />
-            {/* Agrega aquí más rutas de acuerdo a tu aplicación */}
-          </>
-        ) : (
-          <Route path="/*" element={<Navigate to="/" />} />
-        )}
-      </Routes>
-    </HashRouter>
+    <BrowserRouter>
+    {isLoggedIn ? <Menu /> : <Login setMenuVisible={setLoggedIn} />}
+    <Routes>
+      {isLoggedIn ? (
+        <>
+          <Route path="/" element={<Navigate to="/inicio" replace />} />
+          <Route path="/inicio" element={<Inicio />} />
+          <Route path="/editUser" element={<EditUser />} />
+          <Route
+            path="/editEquipoElectronico"
+            element={<EditEquipoElectronico />}
+          />
+          <Route path="/editEntregas" element={<EditEntregas />} />
+          {/* Agrega aquí más rutas de acuerdo a tu aplicación */}
+        </>
+      ) : (
+        <Route path="/*" element={<Navigate to="/" replace />} />
+      )}
+    </Routes>
+  </BrowserRouter>
   );
 }
 
