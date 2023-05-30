@@ -106,6 +106,7 @@
     box-shadow: 0 2px 9px rgba(0, 0, 0, 0.3);
     border-radius: 4px;
     padding: 20px;
+    padding-left: 30px !important;
     padding-top: -40px;
   }
 
