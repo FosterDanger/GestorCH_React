@@ -64,6 +64,7 @@
     font-size: 23px !important;
     border: none;
     width: 90px;
+    margin-right: -15px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -106,6 +107,8 @@
     justify-content: flex-end;
     margin-bottom: 15px;
     margin-top: 5px;
+    padding-top: 13px;
+    padding-right: -18px;
   }
 
   .buttonContainer{

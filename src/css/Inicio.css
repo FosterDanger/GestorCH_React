@@ -2,11 +2,12 @@
     margin-top: 30px !important;
    /*  background: rgb(41, 160, 226) !important;
     background: linear-gradient(0deg, rgba(41, 160, 226, 1) 0%, rgba(10, 29, 148, 1) 100%, rgba(0, 212, 255, 1) 100%) !important; */
-    width: 100vw !important;
-    background-color: var(--color-background);
-    height: 100vh !important;
-    --color-background: rgb(41, 160, 226);
+    
 }
+
+.fondo-negro {
+    background: linear-gradient(to bottom left, rgba(199, 212, 212, 0.2), rgb(114, 128, 138), rgba(255, 165, 0, 0.2)) !important;
+  }
 
 
 .con {

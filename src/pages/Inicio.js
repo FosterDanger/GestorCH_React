@@ -9,26 +9,26 @@ export default function Inicio() {
     <div className='Margen'>
       
     
-<body className='con'>
+      <body className="fondo-negro con">
 
     <div className="card" style={{ backgroundImage: `url(${cardImage1})` }}>
         <div class="content2">
             <h2>Información</h2>
-            <a href="#">Ver Detalles</a>
+           
         </div>
     </div>
 
     <div className="card" style={{ backgroundImage: `url(${cardImage2})` }} >
         <div className="content2">
             <h2>Logros</h2>
-            <a href="#">Ver Detalles</a>
+          
         </div>
     </div>
 
     <div className="card" style={{ backgroundImage: `url(${cardImage3})` }}>
         <div className="content2">
             <h2>Contacto</h2>
-            <a href="#">Ver Detalles</a>
+            
         </div>
     </div>
     
