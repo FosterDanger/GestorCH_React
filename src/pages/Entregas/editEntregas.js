@@ -8,7 +8,7 @@ import axios from "axios";
 import swal from "sweetalert";
 
 
-const baseUrl = "https://localhost:7139/api/Warranty";
+const baseUrl = "http://localhost:83/api/Warranty";
 
 export default class editEntregas extends Component {
   state = {

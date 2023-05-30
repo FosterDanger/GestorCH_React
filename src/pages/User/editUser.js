@@ -7,7 +7,7 @@ import { Modal, ModalBody, ModalFooter, ModalHeader } from "reactstrap";
 import axios from "axios";
 import swal from "sweetalert";
 
-const baseUrl = "https://localhost:7139/api/User";
+const baseUrl = "http://localhost:83/api/user";
 
 export default class editUser extends Component {
   state = {

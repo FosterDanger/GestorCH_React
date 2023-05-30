@@ -8,9 +8,9 @@ import axios from "axios";
 import swal from "sweetalert";
 import QRCode from "react-qr-code";
 
-const baseUrlAparato = "https://localhost:7139/api/Apparatus";
-const baseUrlCliente = "https://localhost:7139/api/Customer";
-const baseURLDireccion = "https://localhost:7139/api/CustomerAddress";
+const baseUrlAparato = "http://localhost:83/api/Apparatus";
+const baseUrlCliente = "http://localhost:83/api/Customer";
+const baseURLDireccion = "http://localhost:83/api/CustomerAddress";
 
 
 
