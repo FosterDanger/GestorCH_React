@@ -170,7 +170,7 @@ export default function Login(props) {
 
         setTimeout(() => {
           props.setMenuVisible(false);
-          window.location.href = "./inicio";
+          window.location.href = "./inicio#/inicio";
         }, 2000);
       } else {
         swal(
