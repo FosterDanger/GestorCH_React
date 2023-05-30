@@ -115,7 +115,7 @@ import Cookies from "universal-cookie";
 import LogoWeb from "../assets/img/LogoWeb.png";
 import swal from "sweetalert";
 
-const baseUrl = "https://localhost:7139/api/User";
+const baseUrl = "http://192.168.0.108:83/api/user";
 const cookies = new Cookies();
 
 export default function Login(props) {
