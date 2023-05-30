@@ -1,0 +1,139 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-top: 35px !important;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.table-heading {
+    font-size: 19px;
+    font-weight: bold;
+  }
+
+  .table-container {
+    box-shadow: 0 2px 9px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    padding: 20px;
+    padding-top: -40px;
+  
+  }
+
+  .button-group {
+    display: flex;
+  }
+
+
+  .btnEntregar{
+    background-color: #0C8F67;
+    font-size: 23px !important;
+    border: none;
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+
+  .btnEntregar:hover {
+    background-color: #137A4F; /* Mismo color de fondo al hacer hover */
+    /* Otros estilos adicionales si deseas */
+  }
+
+  .btnEntregar:active {
+    background-color: #0C5134 !important; /* Mismo color de fondo al hacer clic */
+    /* Otros estilos adicionales si deseas */
+  }
+
+  .search-input {
+    width: 500px;
+    height: 50px;
+    margin-top: 5px;
+    margin-right: 18px;
+    box-shadow: none; /* Quita el sombreado predeterminado */
+    transition: box-shadow 0.3s ease; /* Transición suave para el sombreado */
+    border-width: 1px; /* Cambia el tamaño del borde a 2px */
+    border-style: solid;
+    padding-left: 6px;
+    font-size: 19px;
+  }
+  
+  .search-input:focus {
+    box-shadow: 0 2px 13px rgba(0, 0, 0, 0.5) !important; /* Agrega el sombreado cuando está activo */
+    border-width: 1px; /* Cambia el tamaño del borde a 2px */
+    border-style: solid;
+    outline: 1px solid rgba(46, 46, 187, 0.6);
+    
+  }
+
+  .container {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 15px;
+    margin-top: 5px;
+  }
+
+  .buttonContainer{
+    width: 76px;
+    height: 50px;
+    box-shadow: 0 2px 13px rgba(0, 0, 0, 0.6);
+    font-size: 20px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2465c5;
+    margin-top: 5.6px;
+  }
+
+  .buttonContainer:hover {
+    background-color: #2759b7; /* Color más oscuro al hacer hover */
+  }
+
+  .swal-button--danger {
+    background-color: #28a745 !important; /* Cambia el color de fondo a verde */
+    border-color: #28a745 !important; /* Cambia el color del borde a verde */
+    color: #fff !important; /* Cambia el color del texto a blanco */
+  }
+  
+  .swal-button--danger:hover {
+    background-color: #218838 !important; /* Cambia el color de fondo al pasar el mouse por encima */
+    border-color: #218838 !important; /* Cambia el color del borde al pasar el mouse por encima */
+  }
+  
+   
+ 

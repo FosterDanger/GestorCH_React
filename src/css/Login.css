@@ -1,0 +1,81 @@
+
+#container {
+  background: rgb(41, 160, 226);
+  background: linear-gradient(0deg, rgba(41, 160, 226, 1) 0%, rgba(10, 29, 148, 1) 100%, rgba(0, 212, 255, 1) 100%);
+  width: 100vw;
+  height: 100vh;
+}
+
+.containerPrincipal {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid rgb(11, 63, 177);
+  padding: 55px;
+  background-color: white;
+  box-shadow: 0 0 10px 5px rgba(5, 32, 141, 0.5);
+  border-radius: 10px;
+}
+
+.containerSecundario {
+  text-align: left;
+}
+
+label {
+  margin-bottom: 12px;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.input-long {
+  width: 400px;
+  height: 44px;
+  font-size: 17px !important;
+}
+
+.btn {
+  width: 400px;
+  height: 47px;
+  font-weight: bold !important;
+  font-size: 17px !important;
+  margin: 7px;
+}
+
+.title {
+  text-align: center;
+}
+
+.title2 {
+  margin-bottom: 15px;
+  font-size: 25px;
+  font-weight: 350;
+  text-transform: uppercase;
+  animation: wave 2.5s infinite linear;
+}
+
+@keyframes wave {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.image-logo {
+  width: 180px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.custom-swal-text {
+  font-size: 30px !important;
+}

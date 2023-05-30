@@ -1,0 +1,95 @@
+.navbar-custom {
+    background-color: #1857B7;
+  }
+
+  .btn-custom {
+    background-color: #1D4AB7;
+    color: whitesmoke;
+    font-size: 14px !important;
+    margin-right: 13px;
+    width: 115px;
+    height: 40px;
+    font-family: Arial, sans-serif !important;
+    font-weight: 80 !important; 
+    outline: none !important;
+    border-width: 0.02px !important;
+  }
+
+
+  .logo-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    /* Otros estilos para el enlace */
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-image {
+    width: 50px;
+    margin-left: 8px;
+    /* Estilos adicionales para la imagen */
+  }
+  
+  .logo-text {
+    display: flex;
+    align-items: flex-end;
+    margin-left: 8px;
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* Estilos adicionales para el texto */
+  }
+  
+  .logo-text::after {
+    content: "\00ae"; /* Código del símbolo de "R" en un círculo */
+    font-size: 13px;
+    margin-left: 3px;
+    position: relative;
+    top: -4px;
+  }
+
+  .navbar-nav {
+    justify-content: center;
+   
+  }
+  
+  .navbar-nav .nav-link {
+    color: #CBD3DA;
+    transition: color 0.3s;
+    font-size: 19px;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #ffff;
+    text-shadow: 0 0 80px rgba(255, 255, 255, 1); 
+  }
+  
+  .navbar-nav .nav-item.active .nav-link {
+    color: #ffff;
+    font-size: 19px;
+  }
+
+  .nav-item-spacing {
+    margin-left: 25px;
+  }
+
+  
+ 
+  
+  
+  
+  
+  
+  
+ 
+  
+  
+  
+  
+  
+  
